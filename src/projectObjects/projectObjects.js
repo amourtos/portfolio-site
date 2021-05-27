@@ -4,6 +4,7 @@ import Twip from "./images/Twip-on-twitter.PNG";
 import TwipIG from "./images/Twip-on-instagram.PNG";
 import Kwitter from "./images/Kwitter.PNG";
 import Todo from "./images/todo-app.PNG";
+import sudoku from "./images/sudoku.PNG";
 const projectsArray = [
   {
     title: "Twip on Twitter",
@@ -44,6 +45,13 @@ const projectsArray = [
     language: "Javascript, HTML/CSS",
     imageSource: Todo,
     link: "https://amourtos.github.io/Task-Manager-app/",
+  },
+  {
+    title: "Sudoku Solver",
+    content: "A simple program that will solve any sudoku challenge you throw at it!",
+    author: "Alex Mourtos",
+    tools: "Python",
+    imageSource: sudoku,
   },
 ];
 export default projectsArray;

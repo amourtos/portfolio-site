@@ -36,9 +36,10 @@ const Navigation = () => {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Meme Generator --coming soon
+            <Nav.Link href="#deets">Quotes I Live By</Nav.Link>
+
+            <Nav.Link eventKey={2} href="/currentprojects">
+              Current Projects
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

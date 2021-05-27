@@ -1,5 +1,29 @@
-p {
+h4 {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80vw;
+  height: 120vh;
+  margin: auto;
+  margin-top: auto;
+}
+
+.certificate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
