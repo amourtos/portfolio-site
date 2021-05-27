@@ -1,0 +1,23 @@
+.cardList {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.card {
+  color: white;
+}
+
+.cardText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectHeader {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,7 +1,8 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithubAlt, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 const Navigation = () => {
   return (
     <div>
@@ -14,12 +15,24 @@ const Navigation = () => {
           <Nav className="mr-auto">
             <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="#pricing">resume</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown title="Contacts" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="https://www.linkedin.com/in/alexander-mourtos-358573201/">
+                <FontAwesomeIcon icon={faLinkedin} />
+                LinkedIn
+              </NavDropdown.Item>
+              <NavDropdown.Item href="https://github.com/amourtosd">
+                <FontAwesomeIcon icon={faGithubAlt} />
+                Github
+              </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.instagram.com/twip_the_twipper001/">
+                <FontAwesomeIcon icon={faInstagram} />
+                Twip's Instagram
+              </NavDropdown.Item>
+              <NavDropdown.Item href="https://twitter.com/amourtosgmailc1">
+                <FontAwesomeIcon icon={faTwitter} />
+                Twip's Twitter
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>

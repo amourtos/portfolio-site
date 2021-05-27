@@ -11,10 +11,9 @@ function App() {
       <header>
         <Navigation />
       </header>
-      <div>Here is my portfolio web-app</div>
       <Switch>
         <Route exact path="/" component={AboutMe} />
-        <Route exact path="projects" component={Projects} />
+        <Route exact path="/projects" component={Projects} />
       </Switch>
     </div>
   );
