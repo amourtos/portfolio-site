@@ -37,7 +37,7 @@ const Navigation = () => {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Quotes I Live By</Nav.Link>
+            <Nav.Link href="/quotes">Quotes I Live By</Nav.Link>
 
             <Nav.Link eventKey={2} href="/currentprojects">
               Current Projects

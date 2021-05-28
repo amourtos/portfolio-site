@@ -4,9 +4,36 @@ import projectsArray from "../../projectObjects/projectObjects";
 import "./projectcss.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5, faNodeJs, faPython, faReact } from "@fortawesome/free-brands-svg-icons";
+import { motion } from "framer-motion";
 
 const Projects = (props) => {
   const [project, setProject] = useState([]);
+
+  const variants = {
+    visible: { opacity: 1 },
+    hidden: { opacity: 0 },
+  };
+
+  const list = {
+    visible: {
+      opacity: 1,
+      transition: {
+        when: "beforeChildren",
+        staggerChildren: 0.3,
+      },
+    },
+    hidden: {
+      opacity: 0,
+      transition: {
+        when: "afterChildren",
+      },
+    },
+  };
+
+  const item = {
+    visible: { opacity: 1, x: 0 },
+    hidden: { opacity: 0, x: 0 },
+  };
 
   useEffect(() => {
     setProject(projectsArray);
@@ -14,7 +41,7 @@ const Projects = (props) => {
 
   return (
     <div>
-      <header className="projectHeader">
+      <motion.header initial="hidden" animate="visible" variants={variants} className="projectHeader">
         <h1>
           Applications
           {"    "}
@@ -26,20 +53,22 @@ const Projects = (props) => {
           {"    "}
           <FontAwesomeIcon icon={faHtml5} />
         </h1>
-      </header>
-      <div className="cardList">
-        {project.map((index) => (
-          <ProjectCard
-            title={index.title}
-            content={index.content}
-            author={index.author}
-            tools={index.tools}
-            language={index.language}
-            image={index.imageSource}
-            link={index.link}
-          />
-        ))}
-      </div>
+      </motion.header>
+      <motion.ul layout initial="hidden" animate="visible" variants={list} transition={{ duration: 0.5 }} className="cardList">
+        <motion.li variants={item} className="innerCardList">
+          {project.map((index) => (
+            <ProjectCard
+              title={index.title}
+              content={index.content}
+              author={index.author}
+              tools={index.tools}
+              language={index.language}
+              image={index.imageSource}
+              link={index.link}
+            />
+          ))}
+        </motion.li>
+      </motion.ul>
     </div>
   );
 };

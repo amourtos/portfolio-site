@@ -1,15 +1,23 @@
 import React from "react";
 import "./Intro.css";
+import { motion } from "framer-motion";
+import Picture from "./christmas2019.jpg";
+const Intro = ({ isvisible }) => {
+  const variants = {
+    visible: { opacity: 1 },
+    hidden: { opacity: 0 },
+  };
 
-const Intro = () => {
   return (
-    <div className="introContainer">
-      <h1>This is my intro</h1>
-      <h2>professional photo here</h2>
-      <h2>title: Software Engineer</h2>
-      <h2>location: New Jersey</h2>
-      <h2>tech school Alumni from Kenzie Academy</h2>
-    </div>
+    <motion.div initial="hidden" animate="visible" variants={variants} className="introContainer">
+      <h1>
+        <b>Alex Mourtos</b>
+      </h1>
+      <img src={Picture} />
+      <h2>Software Engineer</h2>
+      <h2>New Jersey, USA</h2>
+      <h2>Kenzie Academy Graduate</h2>
+    </motion.div>
   );
 };
 
