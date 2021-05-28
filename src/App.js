@@ -3,6 +3,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Navigation from "./components/Navigation";
 import "./App.css";
 import Projects from "./components/projects/Projects";
+import Intro from "./components/Intro/Intro";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Navigation />
       </header>
       <Switch>
-        <Route exact path="/" component={AboutMe} />
+        <Route exact path="/" component={Intro} />
+        <Route exact path="/aboutme" component={AboutMe} />
         <Route exact path="/projects" component={Projects} />
       </Switch>
     </div>

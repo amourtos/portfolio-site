@@ -13,14 +13,15 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
+            <Nav.Link href="/aboutme">About Me</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="#pricing">resume</Nav.Link>
-            <NavDropdown title="Contacts" id="collasible-nav-dropdown">
+            <NavDropdown title="Media" id="collasible-nav-dropdown">
               <NavDropdown.Item href="https://www.linkedin.com/in/alexander-mourtos-358573201/">
                 <FontAwesomeIcon icon={faLinkedin} />
                 LinkedIn
               </NavDropdown.Item>
-              <NavDropdown.Item href="https://github.com/amourtosd">
+              <NavDropdown.Item href="https://github.com/amourtos">
                 <FontAwesomeIcon icon={faGithubAlt} />
                 Github
               </NavDropdown.Item>
