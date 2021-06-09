@@ -15,7 +15,7 @@ const Navigation = () => {
           <Nav className="mr-auto">
             <Nav.Link href="/aboutme">About Me</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="#pricing">resume</Nav.Link>
+            <Nav.Link href="/resume">resume</Nav.Link>
             <NavDropdown title="Media" id="collasible-nav-dropdown">
               <NavDropdown.Item href="https://www.linkedin.com/in/alexander-mourtos-358573201/">
                 <FontAwesomeIcon icon={faLinkedin} />
@@ -36,13 +36,7 @@ const Navigation = () => {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Nav>
-            <Nav.Link href="/quotes">Quotes I Live By</Nav.Link>
-
-            <Nav.Link eventKey={2} href="/currentprojects">
-              Current Projects
-            </Nav.Link>
-          </Nav>
+          <Nav></Nav>
         </Navbar.Collapse>
       </Navbar>
     </div>

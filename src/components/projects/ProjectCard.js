@@ -22,7 +22,7 @@ const ProjectCard = (props) => {
               View Application
             </Button>
           </Card.Link>
-          <Card.Link className="cardText" href={props.link}>
+          <Card.Link className="cardText" href={props.gitHub}>
             <Button className="theButton" variant="info">
               View on Github
             </Button>

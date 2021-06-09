@@ -15,6 +15,7 @@ const projectsArray = [
     language: "Python",
     imageSource: Twip,
     link: "https://twitter.com/amourtosgmailc1",
+    gitHub: "https://github.com/amourtos/Twips-twitter-config",
   },
   {
     title: "Twip on Instagram",
@@ -25,6 +26,7 @@ const projectsArray = [
     language: "Python",
     imageSource: TwipIG,
     link: "https://www.instagram.com/twip_the_twipper001/",
+    gitHub: "https://github.com/amourtos/Twips-Instagram/tree/master",
   },
   {
     title: "Kwitter Social Media Site",
@@ -35,6 +37,7 @@ const projectsArray = [
     language: "Javascript, HTML/CSS",
     imageSource: Kwitter,
     link: "https://kenzie-se-q2.github.io/kwitter-LindsFish8691/",
+    gitHub: "https://github.com/kenzie-se-q2/kwitter-LindsFish8691",
   },
   {
     title: "You Can Do Anything You Put Your Mind To!",
@@ -45,6 +48,7 @@ const projectsArray = [
     language: "Javascript, HTML/CSS",
     imageSource: Todo,
     link: "https://amourtos.github.io/Task-Manager-app/",
+    gitHub: "https://github.com/amourtos/Task-Manager-app",
   },
   {
     title: "Sudoku Solver",
@@ -52,6 +56,8 @@ const projectsArray = [
     author: "Alex Mourtos",
     tools: "Python",
     imageSource: sudoku,
+    link: null,
+    gitHub: "https://github.com/amourtos/sudoku-solver",
   },
 ];
 export default projectsArray;

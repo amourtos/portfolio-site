@@ -65,6 +65,7 @@ const Projects = (props) => {
               language={index.language}
               image={index.imageSource}
               link={index.link}
+              gitHub={index.gitHub}
             />
           ))}
         </motion.li>
