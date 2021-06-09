@@ -1,0 +1,13 @@
+.resumeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
