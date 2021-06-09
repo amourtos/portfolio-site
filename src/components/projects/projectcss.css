@@ -1,0 +1,45 @@
+.cardList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 96rem;
+  height: fit-content;
+  margin: auto;
+}
+
+.card {
+  color: white;
+}
+
+.cardText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectHeader {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.cardBottom > :hover {
+  transform: scale(1.15);
+  transition-duration: 0.5s;
+}
+
+.innerCardList {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
