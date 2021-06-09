@@ -3,19 +3,34 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubAlt, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import "./Navigation.css";
 const Navigation = () => {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand>
-          <Link to="/">Home</Link>
+          <Link className="link" to="/" style={{ color: "lightgreen" }}>
+            Home
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/aboutme">About Me</Nav.Link>
-            <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="/resume">resume</Nav.Link>
+            <Nav.Link>
+              <Link className="link" to="/aboutme" style={{ color: "#808080" }}>
+                About Me
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="/projects" style={{ color: "#808080" }}>
+                Projects
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link className="link" to="/resume" style={{ color: "#808080" }}>
+                Resume
+              </Link>
+            </Nav.Link>
             <NavDropdown title="Media" id="collasible-nav-dropdown">
               <NavDropdown.Item href="https://www.linkedin.com/in/alexander-mourtos-358573201/">
                 <FontAwesomeIcon icon={faLinkedin} />
