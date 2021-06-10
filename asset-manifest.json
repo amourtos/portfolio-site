@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.15050b6b.chunk.css",
-    "main.js": "/portfolio-site/static/js/main.cceaa526.chunk.js",
-    "main.js.map": "/portfolio-site/static/js/main.cceaa526.chunk.js.map",
+    "main.js": "/portfolio-site/static/js/main.25808c2c.chunk.js",
+    "main.js.map": "/portfolio-site/static/js/main.25808c2c.chunk.js.map",
     "runtime-main.js": "/portfolio-site/static/js/runtime-main.eb589703.js",
     "runtime-main.js.map": "/portfolio-site/static/js/runtime-main.eb589703.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/portfolio-site/static/css/2.4c97ca4f.chunk.css",
@@ -20,6 +20,7 @@
     "static/media/Twip-on-twitter.b5c4d2ce.PNG": "/portfolio-site/static/media/Twip-on-twitter.b5c4d2ce.PNG",
     "static/media/certificate.a2754c5e.PNG": "/portfolio-site/static/media/certificate.a2754c5e.PNG",
     "static/media/christmas2019.2204925d.jpg": "/portfolio-site/static/media/christmas2019.2204925d.jpg",
+    "static/media/quitter.8b8bda33.PNG": "/portfolio-site/static/media/quitter.8b8bda33.PNG",
     "static/media/sudoku.aaf6d1a7.PNG": "/portfolio-site/static/media/sudoku.aaf6d1a7.PNG",
     "static/media/todo-app.3802ccc7.PNG": "/portfolio-site/static/media/todo-app.3802ccc7.PNG"
   },
@@ -28,6 +29,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.35cb32a2.chunk.js",
     "static/css/main.15050b6b.chunk.css",
-    "static/js/main.cceaa526.chunk.js"
+    "static/js/main.25808c2c.chunk.js"
   ]
 }
