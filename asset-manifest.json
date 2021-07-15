@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.15050b6b.chunk.css",
-    "main.js": "/portfolio-site/static/js/main.25808c2c.chunk.js",
-    "main.js.map": "/portfolio-site/static/js/main.25808c2c.chunk.js.map",
+    "main.js": "/portfolio-site/static/js/main.2cd363f6.chunk.js",
+    "main.js.map": "/portfolio-site/static/js/main.2cd363f6.chunk.js.map",
     "runtime-main.js": "/portfolio-site/static/js/runtime-main.eb589703.js",
     "runtime-main.js.map": "/portfolio-site/static/js/runtime-main.eb589703.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/portfolio-site/static/css/2.4c97ca4f.chunk.css",
@@ -15,7 +15,7 @@
     "static/css/main.15050b6b.chunk.css.map": "/portfolio-site/static/css/main.15050b6b.chunk.css.map",
     "static/js/2.35cb32a2.chunk.js.LICENSE.txt": "/portfolio-site/static/js/2.35cb32a2.chunk.js.LICENSE.txt",
     "static/media/Kwitter.77e29dda.PNG": "/portfolio-site/static/media/Kwitter.77e29dda.PNG",
-    "static/media/SE-Resume.7a9c0171.jpeg": "/portfolio-site/static/media/SE-Resume.7a9c0171.jpeg",
+    "static/media/SE-Resume.0fd641c0.jpeg": "/portfolio-site/static/media/SE-Resume.0fd641c0.jpeg",
     "static/media/Twip-on-instagram.c4b2e275.PNG": "/portfolio-site/static/media/Twip-on-instagram.c4b2e275.PNG",
     "static/media/Twip-on-twitter.b5c4d2ce.PNG": "/portfolio-site/static/media/Twip-on-twitter.b5c4d2ce.PNG",
     "static/media/certificate.a2754c5e.PNG": "/portfolio-site/static/media/certificate.a2754c5e.PNG",
@@ -29,6 +29,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.35cb32a2.chunk.js",
     "static/css/main.15050b6b.chunk.css",
-    "static/js/main.25808c2c.chunk.js"
+    "static/js/main.2cd363f6.chunk.js"
   ]
 }
