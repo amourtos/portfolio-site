@@ -4,6 +4,10 @@ import "../../projectObjects/projectObjects";
 import "./projectcss.css";
 import { motion } from "framer-motion";
 const ProjectCard = (props) => {
+  function newTab() {
+    window.open(props.gitHub);
+  }
+
   return (
     <motion.div>
       <Card className="card" style={{ width: "31rem", height: "50rem", backgroundColor: "#282c34" }}>
@@ -22,8 +26,8 @@ const ProjectCard = (props) => {
               View Application
             </Button>
           </Card.Link>
-          <Card.Link className="cardText" href={props.gitHub}>
-            <Button className="theButton" variant="info">
+          <Card.Link className="cardText">
+            <Button className="theButton" variant="info" onClick={newTab}>
               View on Github
             </Button>
           </Card.Link>
