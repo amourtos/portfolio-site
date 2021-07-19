@@ -6,7 +6,7 @@ import { faGithubAlt, faInstagram, faLinkedin, faTwitter } from "@fortawesome/fr
 import "./Navigation.css";
 const Navigation = () => {
   return (
-    <div>
+    <div className="navbar">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand>
           <Link className="link" to="/" style={{ color: "lightgreen" }}>
