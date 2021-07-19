@@ -4,8 +4,11 @@ import "../../projectObjects/projectObjects";
 import "./projectcss.css";
 import { motion } from "framer-motion";
 const ProjectCard = (props) => {
-  function newTab() {
+  function newTabGitHub() {
     window.open(props.gitHub);
+  }
+  function newTabViewApp() {
+    window.open(props.link);
   }
 
   return (
@@ -21,13 +24,17 @@ const ProjectCard = (props) => {
           <ListGroupItem style={{ backgroundColor: "#282c34" }}>Created With: {props.tools}</ListGroupItem>
         </ListGroup>
         <Card.Footer className="cardBottom">
-          <Card.Link className="cardText" href={props.link}>
-            <Button className="theButton" variant="info">
-              View Application
-            </Button>
-          </Card.Link>
+          {props.link != null ? (
+            <Card.Link className="cardText">
+              <Button className="theButton" variant="info" onClick={newTabViewApp}>
+                View Application
+              </Button>
+            </Card.Link>
+          ) : (
+            <div></div>
+          )}
           <Card.Link className="cardText">
-            <Button className="theButton" variant="info" onClick={newTab}>
+            <Button className="theButton" variant="info" onClick={newTabGitHub}>
               View on Github
             </Button>
           </Card.Link>

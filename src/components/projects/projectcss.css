@@ -1,10 +1,8 @@
 .cardList {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   flex-grow: 1;
-  /* width: 96rem; */
   height: fit-content;
   margin: auto;
 }
@@ -40,7 +38,7 @@
 
 .innerCardList {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
 }
