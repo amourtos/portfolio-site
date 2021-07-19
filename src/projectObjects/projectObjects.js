@@ -5,6 +5,8 @@ import TwipIG from "./images/Twip-on-instagram.PNG";
 import Kwitter from "./images/Kwitter.PNG";
 import Todo from "./images/todo-app.PNG";
 import sudoku from "./images/sudoku.PNG";
+import quitter from "./images/quitter.PNG";
+import deerWatcher from "./images/deer watcher.PNG";
 const projectsArray = [
   {
     title: "Twip on Twitter",
@@ -58,6 +60,26 @@ const projectsArray = [
     imageSource: sudoku,
     link: null,
     gitHub: "https://github.com/amourtos/sudoku-solver",
+  },
+  {
+    title: "Quitter",
+    content:
+      "My first mobile app created with React Native for Android. The application is meant to be used to track how many days since the user quit smoking or using other tobacco products. Still in beta production",
+    author: "Alex Mourtos",
+    tools: "React Native",
+    imageSource: quitter,
+    link: null,
+    gitHub: "https://github.com/amourtos/Quitter",
+  },
+  {
+    title: "Deer Watcher",
+    content:
+      "A python program that monitors a chosen directory for added and removed files. The program also searches specified file types for specific text and displays what line the text was found on.",
+    author: "Alex Mourtos",
+    tools: "Python",
+    imageSource: deerWatcher,
+    link: null,
+    gitHub: "https://github.com/amourtos/Dirwatcher",
   },
 ];
 export default projectsArray;

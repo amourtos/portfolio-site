@@ -13,7 +13,7 @@ const Intro = ({ isvisible }) => {
       <h1>
         <b>Alex Mourtos</b>
       </h1>
-      <img src={Picture} />
+      <img alt="Me" src={Picture} />
       <h2>Software Engineer</h2>
       <h2>New Jersey, USA</h2>
       <h2>Kenzie Academy Graduate</h2>
