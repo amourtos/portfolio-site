@@ -5,11 +5,11 @@ import "./App.css";
 import Projects from "./components/projects/Projects";
 import Intro from "./components/Intro/Intro";
 import Resume from "./components/Resume/Resume";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header"></header> */}
       <header>
         <Navigation />
       </header>
@@ -18,6 +18,7 @@ function App() {
         <Route exact path="/aboutme" component={AboutMe} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/resume" component={Resume} />
+        <Route component={NotFound} />
       </Switch>
     </div>
   );
