@@ -3,19 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter, HashRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { createBrowserHistory } from "history";
 
-// const history = createBrowserHistory();
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <BrowserRouter history={history} basename="/portfolio-site">
-//       <App />
-//     </BrowserRouter>
-//   </React.StrictMode>,
-//   document.getElementById("root")
-// );
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter basename="/portfolio-site">
