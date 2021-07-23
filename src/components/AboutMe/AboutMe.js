@@ -9,7 +9,7 @@ const AboutMe = () => {
     <>
       <div className="aboutMe">
         <h5>
-          Hello and welcome to my portfolio web application, My name is Alex Mourtos, and I am a software engineer. I have been a
+          Hello and welcome to my portfolio web application. My name is Alex Mourtos, and I am a software engineer. I have been a
           student at Kenzie Academy for the past year. I have built web applications, back-end databases, and other applications
           utilizing the many skills I have acquired from Kenzie Academy. My programming proficiencies include HTML/CSS,
           Javascript/NodeJS, React, and Python, and I continue to work towards growing my language proficiencies every day. I am a
