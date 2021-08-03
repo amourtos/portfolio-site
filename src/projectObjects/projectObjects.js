@@ -52,15 +52,15 @@ const projectsArray = [
     link: "https://amourtos.github.io/Task-Manager-app/",
     gitHub: "https://github.com/amourtos/Task-Manager-app",
   },
-  {
-    title: "Sudoku Solver",
-    content: "A simple program that will solve any sudoku challenge you throw at it!",
-    author: "Alex Mourtos",
-    tools: "Python",
-    imageSource: sudoku,
-    link: null,
-    gitHub: "https://github.com/amourtos/sudoku-solver",
-  },
+  // {
+  //   title: "Sudoku Solver",
+  //   content: "A simple program that will solve any sudoku challenge you throw at it!",
+  //   author: "Alex Mourtos",
+  //   tools: "Python",
+  //   imageSource: sudoku,
+  //   link: null,
+  //   gitHub: "https://github.com/amourtos/sudoku-solver",
+  // },
   {
     title: "Quitter",
     content:
