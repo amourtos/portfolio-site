@@ -4,7 +4,7 @@ import Twip from "./images/Twip-on-twitter.PNG";
 import TwipIG from "./images/Twip-on-instagram.PNG";
 import Kwitter from "./images/Kwitter.PNG";
 import Todo from "./images/todo-app.PNG";
-import sudoku from "./images/sudoku.PNG";
+import Morse from "./images/Morse.PNG";
 import quitter from "./images/quitter.PNG";
 import deerWatcher from "./images/deer watcher.PNG";
 const projectsArray = [
@@ -45,22 +45,24 @@ const projectsArray = [
     title: "You Can Do Anything You Put Your Mind To!",
     content:
       "A taskmanager application that can manager, track, sort, and accomplish your todos! This application was built using React and Javascript, and utilizes a fully functioning backend database that was built using node.js, MongoDB, and Express. I worked on a team with 3 other developers to build this application.",
-    author: "Alex Mourtos, Hyde Saulesberry, Michael Escamilla, Cynthia Onwuana",
+    author:
+      "Alex Mourtos, Hyde Saulesberry, Michael Escamilla, Cynthia Onwuana",
     tools: "React, Node.js, Express, Mongoose, MongoDB, React-Bootstrap",
     language: "Javascript, HTML/CSS",
     imageSource: Todo,
     link: "https://amourtos.github.io/Task-Manager-app/",
     gitHub: "https://github.com/amourtos/Task-Manager-app",
   },
-  // {
-  //   title: "Sudoku Solver",
-  //   content: "A simple program that will solve any sudoku challenge you throw at it!",
-  //   author: "Alex Mourtos",
-  //   tools: "Python",
-  //   imageSource: sudoku,
-  //   link: null,
-  //   gitHub: "https://github.com/amourtos/sudoku-solver",
-  // },
+  {
+    title: "Morse Code Cracker",
+    content:
+      "A python program that takes user inputs to decode morse code or binary, and can also encode ASCII characters to morse code.",
+    author: "Alex Mourtos",
+    tools: "Python",
+    imageSource: Morse,
+    link: null,
+    gitHub: "https://github.com/amourtos/Decode-Morse-Code-and-Bits",
+  },
   {
     title: "Quitter",
     content:
