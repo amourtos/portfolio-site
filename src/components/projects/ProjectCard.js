@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
 
   return (
     <motion.div>
-      <Card className="card" style={{ width: "27rem", height: "50rem", backgroundColor: "#282c34" }}>
+      <Card className="card" style={{ width: "27rem", height: "60rem", backgroundColor: "#282c34" }}>
         <Card.Img variant="top" src={props.image} style={{ border: "4px solid lightgreen", width: "100%", height: "19rem" }} />
         <Card.Body>
           <Card.Title className="cardText">{props.title}</Card.Title>

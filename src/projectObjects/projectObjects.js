@@ -7,6 +7,8 @@ import Todo from "./images/todo-app.PNG";
 import sudoku from "./images/sudoku.PNG";
 import quitter from "./images/quitter.PNG";
 import deerWatcher from "./images/deer watcher.PNG";
+import FUNdlr from "./images/FUNdlr.PNG";
+
 const projectsArray = [
   {
     title: "Twip on Twitter",
@@ -80,6 +82,16 @@ const projectsArray = [
     imageSource: deerWatcher,
     link: null,
     gitHub: "https://github.com/amourtos/Dirwatcher",
+  },
+  {
+    title: "FUNdlr",
+    content:
+      "A social media web application. Users can create accounts, post images with text, include hashtags with search filters, as well as send messages directly to other users. This application was created with Python and Django. I worked on a team with 4 other developers to build this web application. I created the program to create, edit, delete, search, mention and hashtag implementation with posts. I also operated as Scrum master handling the repository and deployment of application.",
+    author: "Alex Mourtos, Jamal Smilez, Rachel Gulliver, Vania Jackson, Hossain Ahmed",
+    tools: "Python, Django",
+    imageSource: FUNdlr,
+    link: "https://quiet-beyond-54654.herokuapp.com/",
+    gitHub: "https://github.com/amourtos/jubilant-spoon",
   },
 ];
 export default projectsArray;
