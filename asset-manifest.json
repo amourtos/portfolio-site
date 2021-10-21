@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.681397e2.chunk.css",
-    "main.js": "/portfolio-site/static/js/main.57d9936f.chunk.js",
-    "main.js.map": "/portfolio-site/static/js/main.57d9936f.chunk.js.map",
+    "main.css": "/portfolio-site/static/css/main.6636ec4e.chunk.css",
+    "main.js": "/portfolio-site/static/js/main.9b7c1777.chunk.js",
+    "main.js.map": "/portfolio-site/static/js/main.9b7c1777.chunk.js.map",
     "runtime-main.js": "/portfolio-site/static/js/runtime-main.eb589703.js",
     "runtime-main.js.map": "/portfolio-site/static/js/runtime-main.eb589703.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/portfolio-site/static/css/2.4c97ca4f.chunk.css",
@@ -12,9 +12,12 @@
     "static/js/3.6915c91f.chunk.js.map": "/portfolio-site/static/js/3.6915c91f.chunk.js.map",
     "index.html": "/portfolio-site/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/portfolio-site/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.681397e2.chunk.css.map": "/portfolio-site/static/css/main.681397e2.chunk.css.map",
+    "static/css/main.6636ec4e.chunk.css.map": "/portfolio-site/static/css/main.6636ec4e.chunk.css.map",
     "static/js/2.1afab79c.chunk.js.LICENSE.txt": "/portfolio-site/static/js/2.1afab79c.chunk.js.LICENSE.txt",
+    "static/media/FUNdlr.04f5171d.PNG": "/portfolio-site/static/media/FUNdlr.04f5171d.PNG",
     "static/media/Kwitter.5d394f76.PNG": "/portfolio-site/static/media/Kwitter.5d394f76.PNG",
+    "static/media/SE-Resume-portfolio_pg1.2917eeac.jpg": "/portfolio-site/static/media/SE-Resume-portfolio_pg1.2917eeac.jpg",
+    "static/media/SE-Resume-portfolio_pg2.acebaf61.jpeg": "/portfolio-site/static/media/SE-Resume-portfolio_pg2.acebaf61.jpeg",
     "static/media/SE-Resume.27d68826.jpeg": "/portfolio-site/static/media/SE-Resume.27d68826.jpeg",
     "static/media/Twip-on-instagram.c4b2e275.PNG": "/portfolio-site/static/media/Twip-on-instagram.c4b2e275.PNG",
     "static/media/Twip-on-twitter.b5c4d2ce.PNG": "/portfolio-site/static/media/Twip-on-twitter.b5c4d2ce.PNG",
@@ -29,7 +32,7 @@
     "static/js/runtime-main.eb589703.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.1afab79c.chunk.js",
-    "static/css/main.681397e2.chunk.css",
-    "static/js/main.57d9936f.chunk.js"
+    "static/css/main.6636ec4e.chunk.css",
+    "static/js/main.9b7c1777.chunk.js"
   ]
 }
