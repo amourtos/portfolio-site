@@ -10,9 +10,12 @@ function Resume({ isVisible }) {
   return (
     <MotionConfig transition={{ duration: 1 }}>
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="resumeContainer">
-        <Button variant="secondary">Download PDF</Button> <img src={resumePgOne} className="resume" alt="resume.jpeg" />
+        <a href={resume} download="SE-Resume (2).pdf" target="_blank">
+          <Button variant="secondary">Download PDF</Button>
+        </a>
+
+        <img src={resumePgOne} className="resume" alt="resume.jpeg" />
         <img src={resumePgTwo} className="resume" alt="resume.jpeg" />
-        <a href={resume} download="SE-Resume (2).pdf" target="_blank"></a>
       </motion.div>
     </MotionConfig>
   );
