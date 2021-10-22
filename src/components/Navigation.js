@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubAlt, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import "./Navigation.css";
+import resume from "../components/Resume/SE-Resume (2).pdf";
+import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
 const Navigation = () => {
   return (
     <div className="navbar">
@@ -48,6 +50,9 @@ const Navigation = () => {
               <NavDropdown.Item href="https://twitter.com/amourtosgmailc1">
                 <FontAwesomeIcon icon={faTwitter} />
                 Twip's Twitter
+              </NavDropdown.Item>
+              <NavDropdown.Item href={resume}>
+                <FontAwesomeIcon icon={faFilePdf} /> Download Resume
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
