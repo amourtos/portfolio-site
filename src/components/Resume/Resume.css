@@ -1,6 +1,6 @@
 .resumeContainer {
   display: flex;
-  flex-direction: columna;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
