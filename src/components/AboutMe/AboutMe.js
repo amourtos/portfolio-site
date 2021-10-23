@@ -25,20 +25,24 @@ const AboutMe = () => {
         <br />
         <br />
         <br />
-        <MotionConfig transition={{ duration: 1 }} className="certificate">
+        <MotionConfig transition={{ duration: 3 }} className="certificate">
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
             <Figure>
               <Figure.Image alt="Certificate" src={certificate} />
-              <Figure.Caption>
-                Front End Web Development Certificate earned with Kenzie Academy during the full stack engineer program
-              </Figure.Caption>
+              <center>
+                <Figure.Caption>
+                  Front End Web Development Certificate earned from Kenzie Academy during the full stack engineer program
+                </Figure.Caption>
+              </center>
             </Figure>
           </motion.div>
         </MotionConfig>
         <footer className="info">
           <p>Alex Mourtos</p>
           <p>amourtos@gmail.com </p>
-          <a href="https://github.com/amourtos">My GitHub</a>
+          <a className="links" href="https://github.com/amourtos">
+            My GitHub
+          </a>
         </footer>
       </div>
     </>

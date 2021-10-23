@@ -19,15 +19,17 @@ const Intro = ({ isvisible }) => {
       <h2>Kenzie Academy Graduate</h2>
       <div>
         This web application is built with React.js functional components. To check out the source code click{" "}
-        <a href="https://github.com/amourtos/portfolio-site">HERE</a>
+        <a className="links" href="https://github.com/amourtos/portfolio-site">
+          HERE
+        </a>
       </div>
 
       <div>
-        <a target="_blank" href="https://icons8.com/icon/104090/motherboard">
+        <a className="links" target="_blank" href="https://icons8.com/icon/104090/motherboard">
           Motherboard
         </a>{" "}
         icon by{" "}
-        <a target="_blank" href="https://icons8.com">
+        <a className="links" target="_blank" href="https://icons8.com">
           Icons8
         </a>
       </div>

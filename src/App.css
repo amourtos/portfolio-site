@@ -1,8 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 
 .App {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
   height: 100%;
   color: lightgray;
   font-family: "Ubuntu";
   font-size: large;
+}
+
+.links {
+  font-weight: bold;
+  color: limegreen;
 }
