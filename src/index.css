@@ -10,12 +10,19 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
-
+  background-size: 200% 200%;
+  animation: movingGradient 5s linear infinite alternate;
   /* height: 200vh; */
   /* width: 100vw; */
 }
-
+@keyframes movingGradient {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
