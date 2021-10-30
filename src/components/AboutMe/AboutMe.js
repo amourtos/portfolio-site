@@ -2,6 +2,7 @@ import React from "react";
 import "./AboutMe.css";
 import { Figure } from "react-bootstrap";
 import certificate from "./certificate.PNG";
+import certificateFullStack from "./certificate-2.png";
 import { motion, MotionConfig } from "framer-motion";
 
 const AboutMe = () => {
@@ -31,7 +32,19 @@ const AboutMe = () => {
               <Figure.Image alt="Certificate" src={certificate} />
               <center>
                 <Figure.Caption>
-                  Front End Web Development Certificate earned from Kenzie Academy during the full stack engineer program
+                  Front End Web Development Certificate earned from Kenzie Academy during the full stack engineering program
+                </Figure.Caption>
+              </center>
+            </Figure>
+          </motion.div>
+        </MotionConfig>
+        <MotionConfig transition={{ duration: 5 }} className="certificate">
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+            <Figure>
+              <Figure.Image alt="Certificate" src={certificateFullStack} />
+              <center>
+                <Figure.Caption>
+                  Full stack Web Development Certificate earned from Kenzie Academy during the full stack engineering program
                 </Figure.Caption>
               </center>
             </Figure>
