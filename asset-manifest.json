@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.555cd228.chunk.css",
-    "main.js": "/portfolio-site/static/js/main.b56e3129.chunk.js",
-    "main.js.map": "/portfolio-site/static/js/main.b56e3129.chunk.js.map",
+    "main.js": "/portfolio-site/static/js/main.75e4f2fe.chunk.js",
+    "main.js.map": "/portfolio-site/static/js/main.75e4f2fe.chunk.js.map",
     "runtime-main.js": "/portfolio-site/static/js/runtime-main.681faf62.js",
     "runtime-main.js.map": "/portfolio-site/static/js/runtime-main.681faf62.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/portfolio-site/static/css/2.4c97ca4f.chunk.css",
@@ -22,6 +22,7 @@
     "static/media/SE-Resume-portfolio_pg2.24a06c4e.jpeg": "/portfolio-site/static/media/SE-Resume-portfolio_pg2.24a06c4e.jpeg",
     "static/media/Twip-on-instagram.c4b2e275.PNG": "/portfolio-site/static/media/Twip-on-instagram.c4b2e275.PNG",
     "static/media/Twip-on-twitter.b5c4d2ce.PNG": "/portfolio-site/static/media/Twip-on-twitter.b5c4d2ce.PNG",
+    "static/media/certificate-2.37997049.png": "/portfolio-site/static/media/certificate-2.37997049.png",
     "static/media/certificate.a2754c5e.PNG": "/portfolio-site/static/media/certificate.a2754c5e.PNG",
     "static/media/christmas2019.2204925d.jpg": "/portfolio-site/static/media/christmas2019.2204925d.jpg",
     "static/media/deer watcher.5187c5ec.PNG": "/portfolio-site/static/media/deer watcher.5187c5ec.PNG",
@@ -33,6 +34,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.b4a5ee0f.chunk.js",
     "static/css/main.555cd228.chunk.css",
-    "static/js/main.b56e3129.chunk.js"
+    "static/js/main.75e4f2fe.chunk.js"
   ]
 }
