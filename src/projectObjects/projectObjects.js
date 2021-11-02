@@ -10,28 +10,28 @@ import deerWatcher from "./images/deer watcher.PNG";
 import FUNdlr from "./images/FUNdlr.PNG";
 
 const projectsArray = [
-  {
-    title: "Twip on Twitter",
-    content:
-      "Twip the twipper-bot is using Twitter! His code utilizes the Twitter Developer API in order to manage and maintain itself while the program is running.",
-    author: "Alex Mourtos",
-    tools: "Tweepy",
-    language: "Python",
-    imageSource: Twip,
-    link: "https://twitter.com/amourtosgmailc1",
-    gitHub: "https://github.com/amourtos/Twips-twitter-config",
-  },
-  {
-    title: "Twip on Instagram",
-    content:
-      "Twip the twipper-bot is also using instagram using Selenium and Instapy coded with Python. The hardest part is maintaining the account while flying under the radar of Instagram's bot detection algorithms.",
-    author: "Alex Mourtos",
-    tools: "Instapy, Python, Selenium",
-    language: "Python",
-    imageSource: TwipIG,
-    link: "https://www.instagram.com/twip_the_twipper001/",
-    gitHub: "https://github.com/amourtos/Twips-Instagram/tree/master",
-  },
+  // {
+  //   title: "Twip on Twitter",
+  //   content:
+  //     "Twip the twipper-bot is using Twitter! His code utilizes the Twitter Developer API in order to manage and maintain itself while the program is running.",
+  //   author: "Alex Mourtos",
+  //   tools: "Tweepy",
+  //   language: "Python",
+  //   imageSource: Twip,
+  //   link: "https://twitter.com/amourtosgmailc1",
+  //   gitHub: "https://github.com/amourtos/Twips-twitter-config",
+  // },
+  // {
+  //   title: "Twip on Instagram",
+  //   content:
+  //     "Twip the twipper-bot is also using instagram using Selenium and Instapy coded with Python. The hardest part is maintaining the account while flying under the radar of Instagram's bot detection algorithms.",
+  //   author: "Alex Mourtos",
+  //   tools: "Instapy, Python, Selenium",
+  //   language: "Python",
+  //   imageSource: TwipIG,
+  //   link: "https://www.instagram.com/twip_the_twipper001/",
+  //   gitHub: "https://github.com/amourtos/Twips-Instagram/tree/master",
+  // },
   {
     title: "Kwitter Social Media Site",
     content:
@@ -89,7 +89,8 @@ const projectsArray = [
     title: "FUNdlr",
     content:
       "A social media web application. Users can create accounts, post images with text, include hashtags with search filters, as well as send messages directly to other users. This application was created with Python and Django. I worked on a team with 4 other developers to build this web application. I created the program to create, edit, delete, search, mention and hashtag implementation with posts. I also operated as Scrum master handling the repository and deployment of application.",
-    author: "Alex Mourtos, Jamal Smilez, Rachel Gulliver, Vania Jackson, Hossain Ahmed",
+    author:
+      "Alex Mourtos, Jamal Smilez, Rachel Gulliver, Vania Jackson, Hossain Ahmed",
     tools: "Python, Django",
     imageSource: FUNdlr,
     link: "https://quiet-beyond-54654.herokuapp.com/",
