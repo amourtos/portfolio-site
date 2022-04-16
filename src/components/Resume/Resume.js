@@ -13,7 +13,7 @@ function Resume({ isVisible }) {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="resumeContainer">
           <a className="links" href={resume} download="SE-Resume (2).pdf" target="_blank">
             <Button variant="secondary">Download PDF</Button>
-          </a>{" "}
+          </a>
           <img src={resumePgOne} className="resume" alt="resume.jpeg" />
           <img src={resumePgTwo} className="resume" alt="resume.jpeg" />
         </motion.div>

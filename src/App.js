@@ -6,6 +6,7 @@ import Projects from "./components/projects/Projects";
 import Intro from "./components/Intro/Intro";
 import Resume from "./components/Resume/Resume";
 import NotFound from "./components/NotFound/NotFound";
+import CountDown from "./components/CountDown/CountDown";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/aboutme" component={AboutMe} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/resume" component={Resume} />
+        <Route exact path="/countdown" component={CountDown} />
         <Route component={NotFound} />
       </Switch>
     </div>

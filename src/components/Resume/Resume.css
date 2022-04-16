@@ -10,7 +10,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 100%; */
   max-width: fit-content;
   margin-top: 2%;
 }
