@@ -2,7 +2,12 @@ import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithubAlt, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithubAlt,
+  faInstagram,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 import "./Navigation.css";
 import resume from "../components/Resume/SE-Resume (2).pdf";
 import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
@@ -43,14 +48,14 @@ const Navigation = () => {
                 Github
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="https://www.instagram.com/twip_the_twipper001/">
+              {/* <NavDropdown.Item href="https://www.instagram.com/twip_the_twipper001/">
                 <FontAwesomeIcon icon={faInstagram} />
                 Twip's Instagram
-              </NavDropdown.Item>
-              <NavDropdown.Item href="https://twitter.com/amourtosgmailc1">
+              </NavDropdown.Item> */}
+              {/* <NavDropdown.Item href="https://twitter.com/amourtosgmailc1">
                 <FontAwesomeIcon icon={faTwitter} />
                 Twip's Twitter
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
               <NavDropdown.Item href={resume}>
                 <FontAwesomeIcon icon={faFilePdf} /> Download Resume
               </NavDropdown.Item>
