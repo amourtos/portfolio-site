@@ -51,10 +51,14 @@ function CountDown() {
         </div>
         <h1>Weeks Remaining: {countDownWeeks}</h1>
         <h1>
-          <span>{countDownDays}:</span>
-          <span>{countdownHours}:</span>
-          <span>{countDownMins}:</span>
-          <span>{countDownSeconds}</span>
+          <div>
+            <span>{countDownDays}:</span>
+            <span>{countdownHours}:</span>
+            <span>{countDownMins}:</span>
+            <div>
+              <span>{countDownSeconds}</span>
+            </div>
+          </div>
         </h1>
       </div>
     </>
